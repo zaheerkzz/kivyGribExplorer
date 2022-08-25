@@ -1,0 +1,14 @@
+<Matty>
+    BoxLayout:
+        id: box 
+        size_hint_y: 0.95
+        pos_hint: {"top":1}
+    
+    BoxLayout:
+        size_hint_y:0.05
+        Button:
+            text:"pre"
+            on_release: root.pre_click()
+        Button:
+            text:"next"
+            on_release: root.nxt_click()
